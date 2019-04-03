@@ -1,0 +1,12 @@
+---
+domain: 'example.com'
+wireguard:
+  port: 54321
+  wg_ip: '10.10.10.1'
+  clients:
+    - '10.10.10.2'
+    - '10.10.10.3'
+v2ray:
+  port: 50443
+  clients: 1
+  show_qr: false
